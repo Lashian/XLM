@@ -1,0 +1,17 @@
+<!ELEMENT address_Book (entry+) >
+    <!ELEMENT entry (name, home, telf+, e-mail, Company)>
+	    <!ELEMENT name (first_name, last_name*) >
+		        <!ELEMENT first_name (#PCDATA)>
+		        <!ELEMENT last_name (#PCDATA)>
+	    <!ELEMENT home (street, no, zip, country)>
+		      <!ELEMENT street (#PCDATA)D>
+		     <!ELEMENT no (#PCDATA)>
+		      <!ELEMENT zip (#PCDATA)>
+		      <!ELEMENT country (#PCDATA)>
+	    <!ELEMENT telf (number+)>
+	    <!ELEMENT e-mail (mail+)D>
+	  <!ELEMENT company (COM_name, web_sites+)>
+		    <!ELEMENT COM_name (#PCDATA)>
+		    <!ELEMENT web_sites (web_name+, url)>
+          <!ELEMENT web_name (#PCDATA)>
+          <!ELEMENT url (#PCDATA)>

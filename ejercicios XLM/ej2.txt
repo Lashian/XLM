@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone= "no" ?>
+<!DOCTYPE address_Book SYSTEM "ex2.dtd">
+<address_Book>
+	<entry no="1">
+		<name>
+			<first_name>Alberto</first_name>
+			<last_name>Suarez</last_name>
+		</name>
+		<home>
+			<street>litoral point</street>
+			<no>31</no>
+			<zip>21005</zip>
+			<country>Spain</country>
+		</home>
+		<telf>663896745</telf>
+		<e-mail>albertoP@gmail.com</e-mail>
+		<company>
+			<COM_name>Leches Suarez</COM_name>
+			<web_sites>
+				<name_site>lechessuarez</name_site>
+				<url>https://lechesuarez.es</url>
+			</web_sites>
+		</company>
+	</entry>
+	<entry no="2">
+		<name>
+			<first_name>Carmen</first_name>
+			<last_name>Benitez</last_name>
+		</name>
+		<home>
+			<street>litoral point</street>
+			<no>46</no>
+			<zip>31456</zip>
+			<country>livelpool</country>
+		</home>
+		<telf>663896743</telf>
+		<e-mail>CarmenB@gmail.com</e-mail>
+		<company>
+			<COM_name>flores Benitez</COM_name>
+			<web_sites>
+				<name_site>floresbenitez</name_site>
+				<url>https://floresbenitez.com</url>
+			</web_sites>
+		</company>
+	</entry>
+</address_Book>

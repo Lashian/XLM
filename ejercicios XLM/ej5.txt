@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE NEWSPAPER[
+	<!ELEMENT ARTICLE (HEADLINE, BYLINE, BODY, NOTES)>
+	<!ELEMENT ARTICLE HEADLINE(#PCDATA)>
+	<!ELEMENT ARTICLE BYLINE(#PCDATA)>
+	<!ELEMENT ARTICLE BODY(#PCDATA)>
+	<!ELEMENT ARTICLE NOTES(#PCDATA)>
+	
+	<!ATTLIST ARTICLE AUTHOR CDATA #REQUIRED>
+	<!ATTLIST ARTICLE DATE CDATA #IMPLIED>
+	
+	<!ENTITY NEWSPAPER "Vervet Logic Times">
+	<!ENTITY PUBLISHER "Vervet Logic Press">
+	<!ENTITY COPYRIGHT "Copyright 1998 Vervet Logic Press">
+
+]>
+<NEWSPAPER>
+	<ARTICLE AUTHOR="Antonio mendez" DATE="25-05-2020">
+		<HEADLINE>la Interminable ola de calor </HEADLINE>
+		<BYLINE>Varias propiedades del este de texas se han visto en problemas</BYLINE>
+		<BODY>las recientes olas de calor han matado las miles de hectareas de cultivo del este obligando a los propietarios a cerrar y echar a los trabajadores</BODY>
+		<NOTES>Se esperan mas sucesos como estos por todo el pais, esten atentos</NOTES>
+		<FOOTER>&NEWSPAPER;&PUBLISHER;&COPYRIGHT;</FOOTER>
+	</ARTICLE>
+	<ARTICLE AUTHOR="Casimiro" DATE="26-05-2020">
+		<HEADLINE>The MAndalorian: El director de Ant-man dirigirá un capitulo de la segunda temporada</HEADLINE>
+		<BYLINE>Peyton Reed ha confirmado en redes sociales que, al menos, se encargará de dirigir uno de los capítulos de la segunda temporada</BYLINE>
+		<BODY>El director de Ant-Man, Peyton Reed, ha confirmado que dirigirá al menos uno de los episodios de la segunda temporada de The Mandalorian, el éxito de Disney+ basado en el universo de Star Wars. La producción de Disney y Lucasfilm, que contará con una tercera temporada, estrenará los nuevos capítulos de su segunda tanda el próximo octubre</BODY>
+		<NOTES>Todo Marvel, Disney, Pixar, Star Wars, Indiana Jones y Los Simpsons a un solo clic. Prueba 7 días gratis Disney + y #quédateencasa viendo sus contenidos sin gastar un euro</NOTES>
+	<FOOTER>&NEWSPAPER;&PUBLISHER;&COPYRIGHT;</FOOTER>
+	</ARTICLE>
